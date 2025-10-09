@@ -37,7 +37,8 @@ TABLE OF CONTENTS
     # CUSTOM HERO STYLING
     # CUSTOM PAGE LAYOUT - 2 COLUMNS: ASIDE + MAIN CONTENT
     # STICKYBOX
-    #NMA TYPE BLOCK
+    # NMA TYPE BLOCK
+
 ----------------------- */
 
 /* ------------------
@@ -614,29 +615,27 @@ body > * {
     }
 }
 
-/*NMA TYPEBLOCK*/
+/* NMA TYPE BLOCK */
 
 .nma-eyebrow {
     font-size: .875rem;
     font-weight: bold;
     text-transform: uppercase;
     opacity: .5;
-    line-height: 1.1;
-
+    line-height: 1;
 }
 
 .nma-headline {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-block: var(--unit-s);
     line-height: 1.1;
 }
 
 .nma-subheadline {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 400;
     font-style: italic;
     margin-block: var(--unit-xs);
     opacity: .7;
-    line-height: 1.1;
-
+    line-height: 1.2;
 }
