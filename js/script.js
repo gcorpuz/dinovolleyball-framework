@@ -30,10 +30,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });  
     });
 
-const mytargets = document.querySelectorAll('.observe-me');
-mytargets.forEach((el) => {
-    myobserver.observe(el);
-});
+    const mytargets = document.querySelectorAll('.observe-me');
+    mytargets.forEach((el) => {
+        myobserver.observe(el);
+    });
+
 
 
 
