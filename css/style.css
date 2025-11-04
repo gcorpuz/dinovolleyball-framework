@@ -58,10 +58,10 @@ TABLE OF CONTENTS
     --color-grey-100: rgb(0 0 0 / .05);
     --color-grey-200: rgb(0 0 0 / .2);
 
-    --color-blue-100: #dbeafe;
-    --color-blue-400: #3b82f6;
-    --color-blue-800: #3654a8;
-    --color-blue-900: #294491;
+    --color-blue-100: #c2dcec;
+    --color-blue-400: #3b86b5;
+    --color-blue-800: #0f517a;
+    --color-blue-900: #003555;
 
     --color-green-100: #d1fae5;
     --color-green-200: #a0f2be;
@@ -70,10 +70,13 @@ TABLE OF CONTENTS
     --color-green-800: #166534;
     --color-green-900: #004419;
 
+    --color-yellow-200:#F5DC9B;
+    --color-brown-800:#58422B;
+
     /* DEFINE SEMANTIC COLORS */
-    --color-body-background: var(--color-white);
-    --color-body-text: var(--color-black-80);
-    --color-body-text-dark: var(--color-black);
+    --color-body-background: var(--color-yellow-200);
+    --color-body-text: var(--color-blue-800);
+    --color-body-text-dark: var(--color-blue-900);
 
     --color-primary: var(--color-blue-400);
     --color-primary-dark: var(--color-blue-900);
@@ -89,7 +92,7 @@ TABLE OF CONTENTS
     --color-siteheader-links: var(--color-blue-800);
     --color-siteheader-links-hover: var(--color-blue-900);
     --color-sitefooter-background: var(--color-grey-100);
-    --color-hero-background: var(--color-blue-100);
+    --color-hero-background: var(--color-brown-800);
     
 
     /* BORDERS */
@@ -478,6 +481,11 @@ section {
     background-color: var(--color-hero-background);
     padding-block: var(--unit-3xl);
     padding-inline: var(--unit-s);
+    color: var(--color-white);
+
+    h1, h2, h3 {
+        color: var(--color-white);
+    }
 }
 
 .hero:has(.container) {
